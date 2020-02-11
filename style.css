@@ -1,0 +1,70 @@
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body{
+  background-image: url(img/Fiber_Optical_Cable.jpg);
+}
+
+.wrapper {
+  background-color: #ccc;
+  margin: 0 auto;
+  width: 1000px;
+  height: 1000px;
+}
+/* IMAGE */
+
+/*.img-cable {
+  width: 300px;
+  height: 200px;
+  background-image: url(img/Fiber_Optical_Cable.jpg);
+  background-size: cover;
+}
+*/
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+
+ul {
+
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: arial;
+  color: #1e1e1e;
+  padding: 0 20px;
+}
+
+ul li a:hover {
+  color: #0099ff;
+}
+
+h1 {
+  color: #1e1e1e;
+  font-family: arial;
+  font-size: 40px;
+}
+
+.current-site {
+    color: white;
+    background-color: #0099ff;
+}
